@@ -37,6 +37,7 @@ python3 collect_score.py \
 ```
 
 ### Download Kaggle Submission Records
+First, you should modify `parameters` in line 14 to the cURL command from your browser, e.g., `-H 'User-Agent: Mozilla/5.0 (Macintosh...`.
 ```
 python3 get_kaggle.py \
     --competition_id <competition ID>
